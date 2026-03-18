@@ -1,7 +1,38 @@
 [
   {
-    "name": "Portfolio",
+    "id": 1,
+    "name": "portfolio",
+    "title": "Portfolio",
     "url": "https://ismartin.com",
-    "icon": ""
+    "icon": "Globe"
+  },
+  {
+    "id": 2,
+    "name": "github",
+    "title": "GitHub",
+    "url": "https://github.com/imardev",
+    "icon": "Github"
+  },
+  {
+    "id": 3,
+    "name": "LinkedIn",
+    "title": "LinkedIn",
+    "url": "#",
+    "icon": "Linkedin"
+  },
+  {
+    "id": 4,
+    "name": "contactForm",
+    "title": "Contacto",
+    "url": "#",
+    "icon": "Linkedin",
+    "type": "action"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn",
+    "title": "LinkedIn",
+    "url": "#",
+    "icon": "Linkedin"
   }
 ]

@@ -18,3 +18,7 @@ body {
   );
   pointer-events: none;
 }
+
+.test:hover {
+  border: 2px solid red;
+}
