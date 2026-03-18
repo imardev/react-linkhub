@@ -2,7 +2,6 @@ import LinksData from "../data/links.json";
 import { Globe, ArrowUpRight } from "lucide-react";
 import { GitHub } from "../icons/Github";
 import { LinkedIn } from "../icons/Linkedin";
-import "../js/formVlidation.js";
 
 function Link({ onOpenModal }) {
   const iconMap = {

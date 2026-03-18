@@ -1,7 +1,6 @@
 import "./index.css";
 import avatar from "./assets/avatar.png";
 import Link from "./components/Link";
-import "./js/formVlidation.js";
 import { useState } from "react";
 import ContactForm from "./components/Contact.jsx";
 
