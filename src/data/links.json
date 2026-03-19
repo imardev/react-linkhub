@@ -27,5 +27,12 @@
     "url": "#",
     "icon": "Mail",
     "type": "action"
+  },
+  {
+    "id": 4,
+    "name": "blog",
+    "title": "Blog",
+    "url": "https://blog.ismartin.com",
+    "icon": "Newspaper"
   }
 ]

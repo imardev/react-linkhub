@@ -1,5 +1,5 @@
 import LinksData from "../data/links.json";
-import { Globe, ArrowUpRight, Mail } from "lucide-react";
+import { Globe, ArrowUpRight, Mail, Newspaper } from "lucide-react";
 import { GitHub } from "../icons/Github";
 import { LinkedIn } from "../icons/Linkedin";
 
@@ -9,6 +9,7 @@ function Link({ onOpenModal }) {
     Linkedin: LinkedIn,
     Globe: Globe,
     Mail: Mail,
+    Newspaper: Newspaper,
   };
   return (
     <div className="flex flex-col gap-4 mt-10">
@@ -30,7 +31,7 @@ function Link({ onOpenModal }) {
               target="_blank"
               rel="noreferrer"
               className={`${commonClasses} bg-linear-to-r from-blue-500/20 to-blue-400/20
-border border-blue-500/30`}
+              border border-blue-500/30`}
             >
               {Icon && <Icon className="size-8" />}
               <span>{link.title}</span>
@@ -45,7 +46,7 @@ border border-blue-500/30`}
               type="button"
               id=""
               onClick={onOpenModal}
-              className={commonClasses}
+              className={`${commonClasses} cursor-pointer`}
             >
               {Icon && <Icon className="size-8" />}
               <span>{link.title}</span>
