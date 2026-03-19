@@ -1,16 +1,89 @@
-# React + Vite
+# 🔗 LinkHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Minimal, elegant and personal link hub designed to centralize and showcase my online presence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Preview
 
-## React Compiler
+![preview](./public/preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 About the project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+LinkHub is a personal project built to organize and present my most relevant links in a clean, modern and accessible way.
+
+Its main purpose is to act as a **central hub for my online presence**, allowing quick access to my portfolio, projects and contact channels.
+
+---
+
+## 🧠 Purpose
+
+Instead of relying on third-party link-in-bio tools, this project gives me:
+
+- full control over design and user experience.
+- independence from external platforms.
+- the ability to evolve it as my personal brand grows.
+
+---
+
+## ⚙️ Features
+
+- ⚡ Fast and lightweight
+- 🎨 Clean UI built with TailwindCSS
+- 📱 Fully responsive design
+- 🌙 Dark mode support
+- 🔗 Structured and customizable links
+
+---
+
+## 🧩 Tech Stack
+
+- React
+- TailwindCSS
+- Vite
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/tuusuario/linkhub
+cd linkhub
+pnpm install
+pnpm dev
+```
+
+---
+
+## 🛠️ Customization
+
+This project is intentionally simple and flexible.
+
+You can:
+
+- update links easily from the code.
+- customize styles using TailwindCSS.
+- adapt the layout to your personal needs.
+
+---
+
+## 🌍 Deployment
+
+Recommended platforms:
+
+- Vercel
+- Cloudflare Pages
+
+---
+
+## 👤 Author
+
+- Portfolio: https://ismartin.com
+
+---
+
+## 📌 Notes
+
+This project represents a practical approach to personal branding, combining simplicity, performance and full control over my own digital presence.
