@@ -20,6 +20,9 @@ function App() {
           <div className="rol text-zinc-300 text-lg">
             Desarrollador Web Front-End
           </div>
+          <div className="stack text-zinc-300/50 text-sm">
+            React • TailwindCSS • JavaScript • BootStrap
+          </div>
         </div>
         <div className="links z-10">
           <Link onOpenModal={() => setIsModalOpen(true)} />

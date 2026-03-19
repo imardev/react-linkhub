@@ -1,5 +1,5 @@
 import LinksData from "../data/links.json";
-import { Globe, ArrowUpRight } from "lucide-react";
+import { Globe, ArrowUpRight, Mail } from "lucide-react";
 import { GitHub } from "../icons/Github";
 import { LinkedIn } from "../icons/Linkedin";
 
@@ -8,6 +8,7 @@ function Link({ onOpenModal }) {
     Github: GitHub,
     Linkedin: LinkedIn,
     Globe: Globe,
+    Mail: Mail,
   };
   return (
     <div className="flex flex-col gap-4 mt-10">
@@ -21,6 +22,22 @@ function Link({ onOpenModal }) {
           transition-all duration-500 ease-in-out hover:bg-blue-400/20
         `;
 
+        if (link.name === "portfolio") {
+          return (
+            <a
+              key={link.id}
+              href={link.url}
+              target="_blank"
+              rel="noreferrer"
+              className={`${commonClasses} bg-linear-to-r from-blue-500/20 to-blue-400/20
+border border-blue-500/30`}
+            >
+              {Icon && <Icon className="size-8" />}
+              <span>{link.title}</span>
+              <ArrowUpRight />
+            </a>
+          );
+        }
         if (link.type === "action") {
           return (
             <button

@@ -25,14 +25,7 @@
     "name": "contactForm",
     "title": "Contacto",
     "url": "#",
-    "icon": "Linkedin",
+    "icon": "Mail",
     "type": "action"
-  },
-  {
-    "id": 5,
-    "name": "LinkedIn",
-    "title": "LinkedIn",
-    "url": "#",
-    "icon": "Linkedin"
   }
 ]
