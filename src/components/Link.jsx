@@ -20,7 +20,7 @@ function Link({ onOpenModal }) {
           flex justify-between w-full pt-2 pb-2 pl-5 pr-5 items-center
           text-white rounded-xl bg-zinc-900
           hover:scale-[1.02]
-          transition-all duration-500 ease-in-out hover:bg-blue-400/20
+          transition-all duration-500 ease-in-out hover:bg-blue-400/20 font-semibold
         `;
 
         if (link.name === "portfolio") {
@@ -33,9 +33,9 @@ function Link({ onOpenModal }) {
               className={`${commonClasses} bg-linear-to-r from-blue-500/20 to-blue-400/20
               border border-blue-500/30`}
             >
-              {Icon && <Icon className="size-8" />}
+              {Icon && <Icon className="size-6 md:size-8" />}
               <span>{link.title}</span>
-              <ArrowUpRight />
+              <ArrowUpRight className="size-6 md:size-8" />
             </a>
           );
         }
@@ -48,9 +48,9 @@ function Link({ onOpenModal }) {
               onClick={onOpenModal}
               className={`${commonClasses} cursor-pointer`}
             >
-              {Icon && <Icon className="size-8" />}
+              {Icon && <Icon className="size-6 md:size-8" />}
               <span>{link.title}</span>
-              <ArrowUpRight />
+              <ArrowUpRight className="size-6 md:size-8" />
             </button>
           );
         }
@@ -63,9 +63,9 @@ function Link({ onOpenModal }) {
             rel="noreferrer"
             className={commonClasses}
           >
-            {Icon && <Icon className="size-8" />}
+            {Icon && <Icon className="size-6 md:size-8" />}
             <span>{link.title}</span>
-            <ArrowUpRight />
+            <ArrowUpRight className="size-6 md:size-8" />
           </a>
         );
       })}

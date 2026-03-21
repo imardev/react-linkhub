@@ -40,6 +40,54 @@ export default function ContactForm() {
         placeholder="Correo: "
         className="text-white bg-zinc-800/30 rounded-xl p-2 w-80 ring ring-blue-500/30"
       />
+      <input
+        type="text"
+        placeholder="Empresa S.L."
+        name="company"
+        className="text-white bg-zinc-800/30 rounded-xl p-2 w-80 ring ring-blue-500/30"
+      ></input>
+      <select
+        class="mb-3"
+        aria-label="Tipo de oportunidad"
+        name="opportunity_type"
+        className="text-white bg-zinc-800/30 rounded-xl p-2 w-80 ring ring-blue-500/30 appearance-none "
+      >
+        <option
+          selected
+          disabled
+          value=""
+          class="bg-zinc-800 text-white  appearance-none "
+        >
+          Tipo de oportunidad
+        </option>
+        <option
+          class="bg-zinc-800 appearance-none text-white"
+          value="Propuesta laboral"
+        >
+          Propuesta laboral
+        </option>
+        <option
+          class="bg-zinc-800 appearance-none text-white"
+          value="Incorporación a equipo"
+        >
+          Incorporación a equipo
+        </option>
+        <option
+          class="bg-zinc-800 appearance-none text-white"
+          value="Consulta profesional"
+        >
+          Consulta profesional
+        </option>
+        <option
+          class="bg-zinc-800 appearance-none text-white"
+          value="Información adicional sobre mi perfil"
+        >
+          Información adicional sobre mi perfil
+        </option>
+        <option class="bg-zinc-800 appearance-none text-white" value="Otra">
+          Otra
+        </option>
+      </select>
       <textarea
         name="message"
         required

@@ -8,23 +8,23 @@ function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      <main className=" relative  mx-auto w-140 flex justify-center text-center m-10 flex-col">
+      <main className="relative w-80 md:w-140  mx-auto  flex justify-center text-center m-10 flex-col">
         <div className="mesh-gradient"></div>
         <div className="info z-10">
-          <div className="avatar w-fit flex justify-center mx-auto size-34 bg-blue-700 rounded-full shadow-shadow-[0_90px_60px_rgba(0,0,0,0.4)] ">
+          <div className="avatar w-fit flex justify-center mx-auto size-34 bg-blue-700/40 rounded-full shadow-shadow-[0_90px_60px_rgba(0,0,0,0.4)] ">
             <img src={avatar} alt="Imagen de un avatar parecido" />
           </div>
-          <div className="name text-5xl font-semibold text-white m-4">
+          <div className="name text-4xl md:text-5xl font-semibold text-white m-2">
             Ismael Martín
           </div>
-          <div className="rol text-zinc-300 text-lg">
+          <div className="rol text-zinc-300 text-md md:text-lg">
             Desarrollador Web Front-End
           </div>
-          <div className="stack text-zinc-300/50 text-sm">
+          <div className="stack text-zinc-300/50 text-sm md:text-md">
             React • TailwindCSS • JavaScript • BootStrap
           </div>
         </div>
-        <div className="links z-10">
+        <div className="links z-10 w-70 md:w-full mx-auto">
           <Link onOpenModal={() => setIsModalOpen(true)} />
         </div>
       </main>
@@ -35,7 +35,7 @@ function App() {
             <ContactForm />
             <button
               onClick={() => setIsModalOpen(false)}
-              className="mt-4 px-4 py-2 bg-blue-500 rounded-lg"
+              className="mt-4 px-4 py-2 bg-blue-500 rounded-lg cursor-pointer hover:scale-110 duration-500"
             >
               Cerrar
             </button>

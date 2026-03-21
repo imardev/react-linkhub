@@ -3,7 +3,7 @@
     "id": 1,
     "name": "portfolio",
     "title": "Portfolio",
-    "url": "https://ismartin.com",
+    "url": "https://fi12infor.github.io/porfolio/",
     "icon": "Globe"
   },
   {
@@ -27,12 +27,5 @@
     "url": "#",
     "icon": "Mail",
     "type": "action"
-  },
-  {
-    "id": 4,
-    "name": "blog",
-    "title": "Blog",
-    "url": "https://blog.ismartin.com",
-    "icon": "Newspaper"
   }
 ]
