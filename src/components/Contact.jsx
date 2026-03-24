@@ -68,7 +68,7 @@ export default function ContactForm() {
       />
       <input
         type="text"
-        placeholder="Empresa S.L."
+        placeholder="Empresa S.L. (opcional)"
         name="company"
         className="text-white bg-zinc-800/30 rounded-xl p-2 w-80 ring ring-blue-500/30"
       ></input>
