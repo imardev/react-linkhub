@@ -52,6 +52,7 @@ export default function ContactForm() {
   return (
     <form onSubmit={onSubmit} className="flex flex-col gap-4">
       <script src="https://web3forms.com/client/script.js" async defer></script>
+      <input type="hidden" name="from_name" value="Link-Hub"></input>
       <input
         type="text"
         name="name"
@@ -62,6 +63,7 @@ export default function ContactForm() {
       <input
         type="email"
         name="email"
+        value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Correo: "
         className="email text-white bg-zinc-800/30 rounded-xl p-2 w-80 ring ring-blue-500/30"
