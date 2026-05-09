@@ -51,7 +51,6 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} className="flex flex-col gap-4">
-      <script src="https://web3forms.com/client/script.js" async defer></script>
       <input type="hidden" name="from_name" value="Link-Hub"></input>
       <input
         type="text"
